@@ -1,0 +1,46 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "axdvGPXVoLSXqbxWXC4mk",
+      "type": "text",
+      "x": 100.95132319650111,
+      "y": 336.2329617031716,
+      "width": 1034,
+      "height": 154,
+      "angle": 0,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "sharp",
+      "seed": 1353169962,
+      "version": 56,
+      "versionNonce": 682113130,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1656711509654,
+      "link": null,
+      "locked": false,
+      "text": "input -> conv2d -> relu -> maxpool2d -> conv2d -> relu -> maxpool2d\n      -> flatten -> linear -> relu -> linear -> relu -> linear\n      -> MSELoss\n      -> loss",
+      "fontSize": 30.45798753471279,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 143,
+      "containerId": null,
+      "originalText": "input -> conv2d -> relu -> maxpool2d -> conv2d -> relu -> maxpool2d\n      -> flatten -> linear -> relu -> linear -> relu -> linear\n      -> MSELoss\n      -> loss"
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

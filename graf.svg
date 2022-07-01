@@ -1,0 +1,16 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1054 174" width="1054" height="174">
+  <!-- svg-source:excalidraw -->
+  <!-- payload-type:application/vnd.excalidraw+json --><!-- payload-version:2 --><!-- payload-start -->eyJ2ZXJzaW9uIjoiMSIsImVuY29kaW5nIjoiYnN0cmluZyIsImNvbXByZXNzZWQiOnRydWUsImVuY29kZWQiOiJ4nNVUTW/UMFx1MDAxML33V0TplW7jeJM0lVx1MDAwMEEpqFx1MDAxMlRIi2gl4OAms1x1MDAxYmtcdTAwMWTb2M52l2r/O2OHJunycSdcdTAwMDcnfjNvZjzznIejKIrdTkN8XHUwMDFlxbCtmOC1YffxM49vwFiuJJrSsLeqM1XwbJzT9vz0tGVmXHJOXHUwMDBiVsFsw23HhHVdzdWsUu0pd9Dal369Zi0816qtnZmNSU6g5k6ZPlx1MDAxN1xiaEE6i9G/4D6KXHUwMDFlwopcdTAwMTZe+4xsW2/efbz9rN4vbr/fbW9uL+btOlCD0+NcdTAwMTFcdTAwMWNs3YhuXHUwMDExXCJJMiszQlNKyjxLXGIhg3mHZkrzWUrTMidFQklB8sF6z2vXhFx1MDAwMHQ+gFxy8FXjPJqNIJMr4bMnXHUwMDAzYp1Ra7hQXHUwMDAyj4dVXHUwMDFkJ+FcdTAwMTlcdTAwMGK7Y9V6ZVQn68HHXHUwMDE5Jq1mXHUwMDA2mzD6LblcdTAwMTBcdTAwMGK3XHUwMDEzfdNZ1XRcdTAwMDbigyw3j3VcdTAwMWXgXHUwMDAzzyrs98jCtKtGgrVPOEqzirtd37BcdTAwMDH1NeqrOkzl22H8hlx1MDAxOf0rTmz9ZlJcdTAwMTmAn1x1MDAxYaFcdTAwMTkleVnm6WBcdTAwMTk1leWH4LWSQV75WUpcYiV0rIPbNyhcdTAwMTBcdTAwMTeCLlFkMHbSN/FyXHUwMDE0j+yEXHUwMDE4jJ2uWU9cInmWXHUwMDE3hGRcdGpgXHUwMDFjnOByfchcdTAwMTGqWv8hT1x1MDAxMFx1MDAxNlx1MDAxZZRL3bno5EVUKblJa/9lQHT+3bKtVkr04D/MX2VcdTAwMWZcdTAwMTOxpWDOgfSfWFx1MDAwYjAzJfxccpnwPywu3ytrJ4jA7UQ/SrpcdTAwMDX/4ZtKk9k8K8qzXCKj84KkRfnE6S1rudg9UYQ/8SvBV35WsYDlRJY4L8fxXHUwMDFhXHUwMDBmZqf0VNxcdTAwMTZ8pT7anFx1MDAwZTB2xDGEzVV92HNl+IpLJj79T01cdTAwMGXF73Fcclx1MDAxNyNmWi9cdTAwMWOqXHLr739d8YbD/evfL/rxMjyev1x1MDAwZky85OCl+7A/2v9cdTAwMDSLMYVcdTAwMWMifQ==<!-- payload-end -->
+  <defs>
+    <style>
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://file%2B.vscode-resource.vscode-cdn.net/c%3A/Users/avrey/.vscode/extensions/pomdtr.excalidraw-editor-3.1.0/public//dist/excalidraw-assets/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://file%2B.vscode-resource.vscode-cdn.net/c%3A/Users/avrey/.vscode/extensions/pomdtr.excalidraw-editor-3.1.0/public//dist/excalidraw-assets/Cascadia.woff2");
+      }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="1054" height="174" fill="#ffffff"></rect><g transform="translate(10 10) rotate(0 517 77)"><text x="0" y="27.5" font-family="Virgil, Segoe UI Emoji" font-size="30.45798753471279px" fill="#000000" text-anchor="start" style="white-space: pre;" direction="ltr">input -&gt; conv2d -&gt; relu -&gt; maxpool2d -&gt; conv2d -&gt; relu -&gt; maxpool2d</text><text x="0" y="66" font-family="Virgil, Segoe UI Emoji" font-size="30.45798753471279px" fill="#000000" text-anchor="start" style="white-space: pre;" direction="ltr">      -&gt; flatten -&gt; linear -&gt; relu -&gt; linear -&gt; relu -&gt; linear</text><text x="0" y="104.5" font-family="Virgil, Segoe UI Emoji" font-size="30.45798753471279px" fill="#000000" text-anchor="start" style="white-space: pre;" direction="ltr">      -&gt; MSELoss</text><text x="0" y="143" font-family="Virgil, Segoe UI Emoji" font-size="30.45798753471279px" fill="#000000" text-anchor="start" style="white-space: pre;" direction="ltr">      -&gt; loss</text></g></svg>
