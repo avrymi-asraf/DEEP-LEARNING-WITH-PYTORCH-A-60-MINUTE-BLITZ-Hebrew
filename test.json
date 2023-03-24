@@ -1,0 +1,12 @@
+Figure({
+    'data': [{'hovertemplate': 'x: %{x}<br>y: %{y}<extra></extra>',
+              'name': '0',
+              'source': ('data:image/png;base64,iVBORw0K' ... 'j/AbsMcNBli2ipAAAAAElFTkSuQmCC'),
+              'type': 'image',
+              'xaxis': 'x',
+              'yaxis': 'y'}],
+    'layout': {'margin': {'t': 60},
+               'template': '...',
+               'xaxis': {'anchor': 'y', 'domain': [0.0, 1.0]},
+               'yaxis': {'anchor': 'x', 'domain': [0.0, 1.0]}}
+})

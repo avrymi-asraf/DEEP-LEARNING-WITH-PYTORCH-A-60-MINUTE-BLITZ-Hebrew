@@ -79,6 +79,8 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+.Jupyter/
+
 
 # IPython
 profile_default/
@@ -112,6 +114,12 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+etc/
+include/
+lib/
+share/
+*.cfg
+
 
 # Spyder project settings
 .spyderproject
@@ -130,3 +138,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#data 
+data/
+
+#pytorch
+.*/
