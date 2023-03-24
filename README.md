@@ -1,6 +1,6 @@
 &rlm;
 
-# עקרונות של רשתות נורונים ע"י _pytorch_
+# עקרונות של רשתות  ע"י _pytorch_
 
 מדריך בעברית לשימוש בספרייה 
 _pytorch_
@@ -13,7 +13,7 @@ _pytorch_
 בחלק המתקדם יש פירוט על כל רכיב ורכיב בפני עצמו. ההמלצה שלי היא לעבור על החלק הבסיסי, ורק לאחר מכן להעמיק לפי הצורך בחלקים השונים. 
 ### מדריך בסיסי
 - [Tensors](Tensors.ipynb) טזנסור הוא הבסיס עליו בנוייה הספרייה. 
-- [Neural_Networks](neural_networks.ipynb)מסביר את המבנה הבסיסי של רשתות נויירונים. 
+- [Neural_Networks](Neural_Networks.ipynb)מסביר את המבנה הבסיסי של רשתות נויירונים. 
 - [Autograd_and_Backpropagation](Autograd_and_Backpropagation.ipynb) מסביר איך עובד תהליך הפיעפוע לאחור  - תהליך האימון ברשתות נויירונים ואיך ב_pytorch_ התהליך הזה קורה באופן אטומטי. 
 ### מדריכים מפורטים
 - [Models](Models.ipynb)  מודלים זה לב הרשת נויירונים, נראה את הממשק של pytorch  לבניית מודלים
@@ -25,11 +25,11 @@ _pytorch_
 - [Language_models](Language_models.ipynb) כלים שימושיים למודלי שפה. 
 - [Images_models](Images_models.ipynb) כלים שימושיים למודלים העוסקים בתמונות. 
 - [Gan_Models](Gan_Models.ipynb) יצירת מודלים יצירתיים. 
-- [Hepr_Parameters](Hepr_Parameters.ipynb) קביעת ההיפר פרמטרים במהלך אימון הרשת. 
+- [Hyperparameters](Hyperparameters.ipynb) קביעת ההיפר פרמטרים במהלך אימון הרשת. 
 
 ### שונות
 - [Visualztion](Visualztion.ipynb) כלים וטכינקות להמחשה של תהליך בניית הרשת ואימונה, תוך שימוש בסיפריית `plotly`. 
-- [Tools](Tools.ipynb) כלים שונים. 
+- [Tools](Tools.py) כלים שונים. 
 - [Guide](Guide.md) איך לתרום למדריכים. 
 ### עקרונות עבודה
 - הידע המקדים הנדרש הוא הבנת הסינטקס של פייתון

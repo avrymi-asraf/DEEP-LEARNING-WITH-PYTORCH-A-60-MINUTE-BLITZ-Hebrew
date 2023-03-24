@@ -50,3 +50,5 @@ _train set_ =
 
 [ ] structure of page
 [ ] language
+[ ] shorces
+
