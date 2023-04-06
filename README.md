@@ -29,6 +29,7 @@ _pytorch_
 
 ### שונות
 - [Visualztion](Visualztion.ipynb) כלים וטכינקות להמחשה של תהליך בניית הרשת ואימונה, תוך שימוש בסיפריית `plotly`. 
+- [Data_prosessing](Data_prosessing.ipynb) תהליך יבוא וניקוי דאטא
 - [Tools](Tools.py) כלים שונים. 
 - [Guide](Guide.md) איך לתרום למדריכים. 
 ### עקרונות עבודה
@@ -36,3 +37,6 @@ _pytorch_
 - נשקיע הרבה בשביל לתת אינטואיציה  לאיך הדברים עובדים.
 - המדריך יהווה פתח ללמידה עמוקה ואמתית, נמנע ככול האפשר מ"שקרים" גם אם הם נועדו להקל על ההסבר, נתן כמה שיותר הסבר לאיך המושגים באמת
 - נשתמש בשפה אחידה. 
+
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/avrymi-asraf/NN-in-pythorch-HB/blob/main/Autograd_and_Backpropagation.ipynb)

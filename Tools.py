@@ -123,3 +123,9 @@ def plot_model_plotly(model, input_data, target, list_loss=None):
         fig.add_trace(go.Line(x=x_loss, y=list_loss, name="loss",text=list_loss), row=1, col=2)
     # display.clear_output(wait=True)
     return fig.show()
+
+
+
+def ask_user(ask):
+    ask = f"{ask}\nPress Y to confirm: " 
+    return input(ask) in "Yy"
