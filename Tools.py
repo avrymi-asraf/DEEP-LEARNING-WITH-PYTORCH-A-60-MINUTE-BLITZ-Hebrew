@@ -1,11 +1,22 @@
 from IPython import display
-from torch import nn, optim
 import torch
-import matplotlib.pyplot as plt
+import torch.nn.functional as F
+from torch import nn  # for
+
+import numpy as np  # for
+import pandas as pd  # for
+
+
+import plotly.graph_objects as go
+import plotly.express as px
+from plotly import subplots
 
 from typing import Callable, List, Tuple
 from torch import Tensor
 from torch.nn import Module
+
+TensorType = torch.Tensor
+FigType = go.Figure
 
 
 def plot_model(model, input_data, target, list_loss=None):
@@ -120,12 +131,25 @@ def plot_model_plotly(model, input_data, target, list_loss=None):
     if list_loss is not None:
         x_loss = list(range(len(list_loss)))
         loss_label = 0 if not list_loss else list_loss[-1]
-        fig.add_trace(go.Line(x=x_loss, y=list_loss, name="loss",text=list_loss), row=1, col=2)
+        fig.add_trace(
+            go.Line(x=x_loss, y=list_loss, name="loss", text=list_loss), row=1, col=2
+        )
     # display.clear_output(wait=True)
     return fig.show()
 
 
-
 def ask_user(ask):
-    ask = f"{ask}\nPress Y to confirm: " 
+    ask = f"{ask}\nPress Y to confirm: "
     return input(ask) in "Yy"
+
+
+def ten_image_mnist(numbers: TensorType, clear_screen: bool = True) -> FigType:
+    fig = subplots.make_subplots(
+        row=3, col=3, shared_xaxes=True, shared_yaxes=True
+    ).add_traces(
+        data=[go.Heatmap(z=numbers[i]) for i in range(9)],
+        cols=[1, 1, 1, 2, 2, 2, 3, 3, 3],
+        rows=[1, 2, 3, 1, 2, 3, 1, 2, 3],
+    ).update_layout(yaxis = dict(scaleanchor = 'x'))
+    fig.show()
+    return fig
