@@ -2,8 +2,8 @@
 ### General
 [follow google code style](https://google.github.io/styleguide/pyguide.html)
 
-
-## Import
+## Snippets
+### Import
 Delete what you don't want to import. 
 Each new segment should import only the things needed for that segment. This new section is where there is an H1 highlight.
 
@@ -38,6 +38,27 @@ GetParaetersType = Callable[[], ParametersType]
 PlotFunctionType = Callable[[Module, Tensor, Tensor, Any], Figure]
 ```
 
+# Sources
+
+### Hebrow
+[הקורס בעברית](https://deychev.com/cs/iml.pdf)
+[קורס בטכניון](https://technion046195.github.io/semester_2019_winter/)
+
+### English
+
+[stanford cs221](https://stanford-cs221.github.io/spring2022/modules/) 
+[stanford cs231](https://cs231n.github.io/) 
+[stanford cs236](https://deepgenerativemodels.github.io/notes/index.html) 
+
+# Page Structure 
+
+[wikipedia](https://he.wikipedia.org/wiki/%D7%95%D7%99%D7%A7%D7%99%D7%A4%D7%93%D7%99%D7%94:%D7%9E%D7%93%D7%A8%D7%99%D7%9A_%D7%9C%D7%9B%D7%AA%D7%99%D7%91%D7%AA_%D7%A2%D7%A8%D7%9B%D7%99%D7%9D)
+
+1. פתיח:  הגדרה ומוטיבציה,
+2. מבנה בסיסי והמחשה
+3. שימוש 
+4. שימוש מתקדם בתוך סט הכלים
+
 
 # Glossary
 _embdding layer_ =\
@@ -56,7 +77,6 @@ _train set_ =
 
 [] structure of page
 [] language
-[] shorces
 
 
 
