@@ -68,12 +68,16 @@ _backpropgation_= \
 _neural network_ = \
 _convolution layer_ = \
 _loos function_ = \
-_optimizer_ = \
+_optimizer_ = אופטימייזר \
 _weights_ = \
 _bios_ = \
 _data set_ = \
-_train set_ = 
+_train set_ =  
 
+
+[מונחי האקדמיה ללשון העברית](https://terms.hebrew-academy.org.il/Millonim/ShowMillon?KodMillon=351)
+[מונחי האקדמיה ללשון העברית](https://terms.hebrew-academy.org.il/Millonim/ShowMillon?KodMillon=199)
+ [מונחי האקדמיה ללשון העברית - למידת מכונה](https://terms.hebrew-academy.org.il/Millonim/ShowMillon?KodMillon=235)
 
 [] structure of page
 [] language
