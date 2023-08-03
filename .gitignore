@@ -141,6 +141,7 @@ dmypy.json
 
 #data 
 data/
+dataset/
 
 #pytorch
 .*/
